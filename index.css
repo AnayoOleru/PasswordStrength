@@ -1,0 +1,68 @@
+body{
+   background-color: #10a53f;
+}
+/* box on the green background */
+.container{
+  text-align:center;
+  background-color: #181c19;
+  width: 50%;
+  height: 800px;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
+}
+/* image icon styling */
+#icon{
+  width: 60%;
+    margin-top: 50px;
+}
+/* instructions styling  */
+#info{
+  color: white;
+  font-size: 15px;
+  font-family: Courier;
+  padding: 10px;
+  
+}
+/* username and password form field styling  */
+input[type=text]{
+    width: 70%;
+    padding: 12px 20px;
+    margin: 15px 0px 10px 0px;
+    box-sizing: border-box;
+    border: none;
+    background-color: #000000;
+    color: white;
+    font-family: Courier;
+  
+}
+/* check button */
+#button{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  margin-top:5px;
+    font-size: 16px;
+  font-weight: bold;
+  box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
+}
+#button:hover {
+    background-color: black;
+    color: white;
+}
+/* password percentage styling  */
+#strengthpercent{
+  margin-top: 20px;
+  font-family: Courier;
+  font-weight: bold;
+  font-size: 20px;
+}
+/* strengthtext styling */
+#strengthtext{
+  margin-top: 20px;
+  font-family: courier;
+  font-size: 25px;
+}

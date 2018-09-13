@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Password Strength</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<script type="text/javascript" src="index.js"></script>
+	<link rel="icon" type="image/ico" href="Images/lock.jpg"/>
+	</head>
+<body>
+     <div class= 'container'>
+<!--image icon-->
+      <img id= 'icon' src='https://vrtize.com/wp-content/uploads/2016/08/new-account-icon-256x256.png'>
+<!--  instructions      -->
+      <p id='info'>Secure password contains uppercase, lowercase, symbols and numbers.</p>
+      <form id="form">
+<!--username      -->
+        <input id="namebox" type="text" placeholder="Username" required>
+<!-- password field, runs immediately the user start typing -->
+        <input id="passbox" type="text"
+placeholder="Password" onkeyup="passBox(this.value)" required>
+        </form>
+      <!-- the error messages, percentage and strength text  -->
+      <div> 
+      <strong id="strengthpercent"></strong>
+      <strong id="strengthtext"></strong>
+      </div>
+<!--  check button. Checks for strengthtext  -->
+       <button id="button">CHECK</button>
+      
+    </div>
+
+</body>
+</html>
